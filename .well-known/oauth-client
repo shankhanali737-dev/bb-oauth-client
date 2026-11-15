@@ -1,0 +1,9 @@
+{
+  "client_id": "https://shankhanali737-dev.github.io/bb-oauth-client",
+  "client_name": "bugbounty manual probe",
+  "redirect_uris": ["https://<USERNAME>.github.io/bb-oauth-client/cb"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid profile email offline_access"
+}
